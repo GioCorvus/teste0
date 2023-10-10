@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+}
+
+#formulario h2 {
+    color: darkgreen; /* Color de texto pastel (azul) */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#formulario h2:hover {
+    color: pink; /* Nuevo color de texto pastel (rojo) cuando se hace hover */
+}
+
+#formulario label {
+    display: block;
+    margin-top: 10px;
+    
+}
+
+#formulario input[type="radio"] {
+    border: 1px solid #000;
+}
+
+#formulario input[type="text"],
+#formulario select,
+#formulario input[type="radio"],
+#formulario input[type="checkbox"] {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+#formulario button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resaltado {
+    margin-top: 3px;
+    background-color: lightgoldenrodyellow; /* Color de fondo rosado */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.resaltado1 {
+    margin-top: 3px;
+    background-color: lightgreen; /* Color de fondo rosado */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}

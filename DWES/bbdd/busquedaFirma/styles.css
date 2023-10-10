@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el valor alfa según tu preferencia para hacerlo semi transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    height: 28%;
+
+    /* Utilizar flexbox para centrar horizontal y verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Centrar el formulario en el centro de la pantalla */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset {
+    border: none; /* Quita el borde del fieldset */
+}
+
+legend {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #87ceeb; /* Color pastel, ajusta según tus preferencias */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #5f9ea0; /* Color pastel, ajusta según tus preferencias */
+    margin-top: auto; /* Mueve el botón hacia abajo del todo */
+
+}
+
+/* Estilos para los resultados */
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    margin-top: 50px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+legend {
+    font-size: 24px;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #2980b9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.divo {
+    background-color: #23dec5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /* Utilizar flexbox para centrar horizontal y verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Centrar el div en el centro de la pantalla */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Permitir que el div crezca verticalmente según su contenido */
+    width: 50%; /* Ancho máximo del div */
+    max-height: 80%; /* Altura máxima del div */
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si el contenido es demasiado grande */
+}

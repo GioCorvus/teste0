@@ -1,0 +1,217 @@
+body {
+    background-image: url('img/bg1.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover; /* Cubre todo el cuerpo sin repetir */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo en su lugar */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1280px; /* Ancho máximo de 1280px */
+    margin: 0 auto; /* Centra el body en la página */
+}
+
+header {
+    background-color: #80c080; /* Verde pastel más oscuro */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    background-color: #a0d0a0; /* Verde pastel medio */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo blanco ligeramente transparente */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+.box {
+    background-color: #c0e0c0; /* Verde pastel claro */
+    width: calc(45% - 20px); /* 45% del ancho del contenedor menos los márgenes */
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 400 px; /* Altura fija para todos los divs */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #80c080; /* Verde pastel más oscuro */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+header {
+    background-color: #80c080; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centrar el contenido */
+}
+
+.titulo {
+    font-size: 36px; /* Tamaño de fuente grande */
+    color: #fff; /* Color de texto blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    margin: 0; /* Eliminar margen superior e inferior */
+    padding: 10px; /* Espacio interno */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    color: #333; /* Cambia el color del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    padding: 10px 20px; /* Agrega espaciado alrededor del texto */
+    border-radius: 5px; /* Añade bordes redondeados */
+    background-color: #80c080; /* Fondo verde pastel */
+    transition: background-color 0.3s, color 0.3s; /* Agrega transiciones suaves para cambiar de color */
+}
+
+/* Cambio de estilo al pasar el cursor por encima */
+nav ul li a:hover {
+    background-color: #a0d0a0; /* Cambia el color de fondo al pasar el cursor */
+    color: #fff; /* Cambia el color del texto al pasar el cursor */
+}
+
+.box img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.box div {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: calc(96% - 20px); /* 45% del ancho del contenedor menos los márgenes */
+    padding: 20px;
+    height: 300px; /* Altura fija para todos los divs */
+    border-radius: 10px;
+}
+
+.titulin {
+    font-size: 20px;
+    margin-top: -5px;
+    color: pink; /* Cambia el color a tu elección */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.titulin:hover {
+    color: darkviolet; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.tabla-emisiones {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-emisiones th, .tabla-emisiones td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-emisiones th {
+    background-color: #c0e0c0;
+}
+
+.tabla-emisiones tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.lista-emisiones {
+    list-style-type: disc;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.lista-emisiones li {
+    margin-bottom: 10px;
+}
+
+#formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#formulario h2 {
+    color: darkgreen; /* Color de texto pastel (azul) */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#formulario h2:hover {
+    color: pink; /* Nuevo color de texto pastel (rojo) cuando se hace hover */
+}
+
+#formulario label {
+    display: block;
+    margin-top: 10px;
+    
+}
+
+#formulario input[type="radio"] {
+    border: 1px solid #000;
+}
+
+#formulario input[type="text"],
+#formulario select,
+#formulario input[type="radio"],
+#formulario input[type="checkbox"] {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+#formulario button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resaltado {
+    margin-top: 3px;
+    background-color: lightgoldenrodyellow; /* Color de fondo rosado */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.resaltado1 {
+    margin-top: 3px;
+    background-color: lightgreen; /* Color de fondo rosado */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
